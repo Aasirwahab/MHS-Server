@@ -14,7 +14,7 @@ dotenv.config();
 
 // CORS configuration
 const corsOptions = {
-  origin: [process.env.FRONTEND_URL_ONE, process.env.FRONTEND_URL_TWO, 'http://localhost:5174'],
+  origin: [process.env.FRONTEND_URL_ONE, process.env.FRONTEND_URL_TWO, 'https://myhospitalsystem.netlify.app/'],
   methods: ["GET", "POST", "DELETE", "PUT", "OPTIONS"],
   credentials: true,
   allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With"],
