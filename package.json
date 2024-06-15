@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "prebuild": "chmod +x ./node_modules/.bin/node-pre-gyp",
-    "build": "npm run prebuild && npm install"
+    "build": "npm run prebuild && npm install",
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
